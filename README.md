@@ -1,9 +1,10 @@
-# ExpNo:10 Implementation of Classical Planning Algorithm
+# EX-10 : IMPLEMENTATION OF CLASSICAL PLANNING ALGORITHM 
 
-# AIM:
-To implement the classical planning algorithm using python.
 
-# Algorithm or Steps Involved:
+## AIM : 
+ To implement the classical planning algorithm using python.
+ 
+## ALGORITHM :
 <ol>
   <li>Define the initial state</li>
   <li>Define the goal state</li>
@@ -12,7 +13,7 @@ To implement the classical planning algorithm using python.
   <li>Print the plan</li>
 </ol>
 
-# Example - 1
+## Example - 1
 ```
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
@@ -25,11 +26,11 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-# Output:
+## Output :
 ```
 ['move_A_to_B']
 ```
-# Example - 2
+## Example - 2
 ```
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
@@ -43,11 +44,13 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
-# Output:
+## Output :
 ```
 ['move_A_to_B', 'move_B_to_C']
 ```
-# Program:
+
+## PROGRAM :
+
 ```
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
@@ -117,9 +120,10 @@ print(plan)
 
 ```
 
-# Output:
+## OUTPUT :
+<img width="306" height="72" alt="image" src="https://github.com/user-attachments/assets/f89b352a-e3fe-4de5-83a1-b7b97db55935" />
 
-![alt text](image.png)
 
-# Result:
-Therefore, Implementation of Classical Planning Algorithm is implemetated successfully.
+
+## RESULT :
+Therefore,Implementation of Classical Planning Algorithm is implemetated successfully.
